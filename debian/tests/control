@@ -1,0 +1,5 @@
+Tests: require
+Depends: node-validate-npm-package-name
+
+Test-Command: tap ${TAP_FLAGS:-'--'} test/*.js
+Depends: @, node-tap

@@ -1,0 +1,28 @@
+Source: node-validate-npm-package-name
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+ , node-builtins (>= 1.0.3)
+ , node-tap
+Standards-Version: 4.1.1
+Homepage: https://github.com/npm/validate-npm-package-name
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-validate-npm-package-name.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-validate-npm-package-name.git
+
+Package: node-validate-npm-package-name
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-builtins (>= 1.0.3)
+Description: Checks if a string is a valid npm package name
+ This module can determine if a string is valid to be used a npm module name.
+ This module will show conformance to old naming rules and new naming rules
+ separately.
+ .
+ Node.js is an event-based server-side JavaScript engine.

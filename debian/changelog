@@ -1,9 +1,67 @@
-node-validate-npm-package-name (3.0.0-1.1) unstable; urgency=medium
+node-validate-npm-package-name (5.0.0+~4.0.0-1) unstable; urgency=medium
 
-  * Non maintainer upload by the Reproducible Builds team.
-  * No source change upload to rebuild on buildd with .buildinfo files.
+  * Team upload
+  * Set upstream metadata fields: Security-Contact
+  * Update standards version to 4.6.1, no changes needed
+  * New upstream version 5.0.0+~4.0.0
 
- -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 00:42:07 +0100
+ -- Yadd <yadd@debian.org>  Sat, 19 Nov 2022 08:41:50 +0100
+
+node-validate-npm-package-name (4.0.0+~3.0.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Embed typescript declarations
+  * New upstream version 4.0.0+~3.0.3
+  * Drop patch
+  * Require node-builtins >= 5
+  * Update test for node-tap >= 15
+
+ -- Yadd <yadd@debian.org>  Wed, 06 Apr 2022 14:55:19 +0200
+
+node-validate-npm-package-name (3.0.0-4) unstable; urgency=medium
+
+  * Team upload
+  * Require node-builtins ≥ 3 (fixes debci)
+
+ -- Yadd <yadd@debian.org>  Fri, 07 Jan 2022 08:25:11 +0100
+
+node-validate-npm-package-name (3.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Add fix for node-builtins ≥ 3
+
+ -- Yadd <yadd@debian.org>  Sun, 26 Dec 2021 10:00:00 +0100
+
+node-validate-npm-package-name (3.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI
+  * Bump debhelper from old 9 to 12
+  * Set debhelper-compat version in Build-Depends
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse
+  * Update Vcs-* headers from URL redirect
+  * Use canonical URL in Vcs-Git
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-builtins
+    + node-validate-npm-package-name: Drop versioned constraint on
+    node-builtins in Depends
+
+  [ Yadd ]
+  * Bump debhelper from old 12 to 13
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+    * Fix filenamemangle
+    * Fix GitHub tags regex
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Sun, 21 Nov 2021 14:46:44 +0100
 
 node-validate-npm-package-name (3.0.0-1) unstable; urgency=low
 

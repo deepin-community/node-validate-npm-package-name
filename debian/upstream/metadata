@@ -1,0 +1,5 @@
+Bug-Database: https://github.com/npm/validate-npm-package-name/issues
+Bug-Submit: https://github.com/npm/validate-npm-package-name/issues/new
+Repository: https://github.com/npm/validate-npm-package-name.git
+Repository-Browse: https://github.com/npm/validate-npm-package-name
+Security-Contact: https://github.com/npm/validate-npm-package-name/tree/HEAD/SECURITY.md
